@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Included Test",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Exact Test",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Regex Test",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "[.]*Hello World![.]*",
+      "comparison": "regex",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test All",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}
