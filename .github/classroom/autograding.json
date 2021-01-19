@@ -1,39 +1,69 @@
 {
   "tests": [
     {
-      "name": "Included Test",
-      "setup": "",
-      "run": "python main.py",
+      "name": "Test Player Default Constructor",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testPlayerDefaultConstructor\"",
       "input": "",
-      "output": "Hello World!",
+      "output": "",
       "comparison": "included",
       "timeout": 2,
       "points": 1
     },
     {
-      "name": "Exact Test",
-      "setup": "",
-      "run": "python main.py",
-      "input": "",
-      "output": "Hello World!",
-      "comparison": "exact",
-      "timeout": 2,
-      "points": 1
-    },
-    {
-      "name": "Regex Test",
-      "setup": "",
-      "run": "python main.py",
-      "input": "",
-      "output": "[.]*Hello World![.]*",
-      "comparison": "regex",
-      "timeout": 2,
-      "points": 1
-    },
-    {
-      "name": "Test All",
+      "name": "Test Enemy Default Constructor",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
+      "run": "pytest -k \"testEnemyDefaultConstructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test Player Constructor",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testPlayerConstructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test Enemy Constructor",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testEnemyConstructor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test Player Attack",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testPlayerAttack\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test Enemy Attack",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testEnemyAttack\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    },
+    {
+      "name": "Test Player Heal",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k \"testPlayerHeal\"",
       "input": "",
       "output": "",
       "comparison": "included",
