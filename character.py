@@ -10,4 +10,4 @@ class Character:
 		self.name = name
 		
 	def __str__(self):
-		return "This generic Character is named " + self.name + " and has " + str(self.hp) + "/" + str(max_hp) + " hit points."
+		return "This generic Character is named " + self.name + " and has " + str(self.hp) + "/" + str(self.max_hp) + " hit points."
