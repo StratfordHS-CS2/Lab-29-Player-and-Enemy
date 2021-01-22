@@ -10,7 +10,7 @@ class Enemy:
     max_hp = 50
     name = 'Alien'
 
-  It should also set the Player's attack_dmg to be 5.
+  It should also set the Enemy's attack_dmg to be 3.
   '''
   def __init__():
     pass
